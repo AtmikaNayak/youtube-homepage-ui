@@ -1,71 +1,119 @@
-# Getting Started with Create React App
+# YouTube UI Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple YouTube-inspired user interface built with React. The application recreates the basic YouTube layout with a navigation bar, sidebar, category filters, and a responsive video grid displaying sample video content. The selected category dynamically filters videos on the page. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- YouTube-style layout
+- Responsive navigation bar
+- Sidebar navigation menu
+- Category-based video filtering
+- Video cards with thumbnails and metadata
+- React component-based architecture
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
+- React
+- JavaScript
+- CSS
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshot
 
-### `npm run build`
+### Home Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![YouTube UI Clone](public/home.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+```text
+youtube/
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo.png
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── assets
+│   ├── App.js
+│   ├── App.css
+│   ├── Categories.js
+│   ├── Navbar.js
+│   ├── Sidebar.js
+│   ├── Videocards.js
+│   ├── Videogrid.js
+│   ├── index.js
+│   └── index.css
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Navbar
+- Search bar
+- Create button
+- Notifications icon
+- User profile section
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Sidebar
+- Home
+- Shorts
+- Subscriptions
+- You
 
-## Learn More
+### Categories
+- Dynamic category filter buttons
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Video Grid
+- Displays video cards
+- Filters videos based on selected category
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Application Workflow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. The application loads all available videos.
+2. Users select a category from the category bar.
+3. Videos are filtered based on the selected category.
+4. Matching videos are displayed in the video grid.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Installation
 
-### Making a Progressive Web App
+```bash
+git clone <repository-url>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+cd youtube
 
-### Advanced Configuration
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm start
+```
 
-### Deployment
+Open:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```text
+http://localhost:3000
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# youtube-homepage-ui
+## Author
+
+### Atmika Nayak
+
+GitHub: https://github.com/AtmikaNayak
