@@ -1,119 +1,49 @@
-# YouTube UI Clone
+# YouTube Homepage UI
 
-A simple YouTube-inspired user interface built with React. The application recreates the basic YouTube layout with a navigation bar, sidebar, category filters, and a responsive video grid displaying sample video content. The selected category dynamically filters videos on the page. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+A frontend recreation of the YouTube homepage built using HTML and CSS. The project focuses on replicating the layout, navigation bar, sidebar, video grid, and overall user experience of YouTube.
 
 ## Features
 
-- YouTube-style layout
-- Responsive navigation bar
-- Sidebar navigation menu
-- Category-based video filtering
-- Video cards with thumbnails and metadata
-- React component-based architecture
-
----
+- YouTube-inspired homepage layout
+- Navigation bar
+- Sidebar navigation
+- Video cards and thumbnails
+- Responsive design
+- Clean user interface
 
 ## Tech Stack
 
-### Frontend
-- React
-- JavaScript
+- HTML
 - CSS
-
----
-
-## Screenshot
-
-### Home Page
-
-![YouTube UI Clone](public/home.png)
-
----
 
 ## Project Structure
 
 ```text
-youtube/
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo.png
-│   ├── logo192.png
-│   ├── logo512.png
-│   ├── manifest.json
-│   └── robots.txt
-├── src
-│   ├── assets
-│   ├── App.js
-│   ├── App.css
-│   ├── Categories.js
-│   ├── Navbar.js
-│   ├── Sidebar.js
-│   ├── Videocards.js
-│   ├── Videogrid.js
-│   ├── index.js
-│   └── index.css
-├── package.json
-├── package-lock.json
+youtube-homepage/
+├── images/
+├── styles/
+├── index.html
 └── README.md
 ```
 
----
-
-## Components
-
-### Navbar
-- Search bar
-- Create button
-- Notifications icon
-- User profile section
-
-### Sidebar
-- Home
-- Shorts
-- Subscriptions
-- You
-
-### Categories
-- Dynamic category filter buttons
-
-### Video Grid
-- Displays video cards
-- Filters videos based on selected category
-
----
-
-## Application Workflow
-
-1. The application loads all available videos.
-2. Users select a category from the category bar.
-3. Videos are filtered based on the selected category.
-4. Matching videos are displayed in the video grid.
-
----
-
-## Installation
+## Running Locally
 
 ```bash
 git clone <repository-url>
 
-cd youtube
-
-npm install
-
-npm start
+cd youtube-homepage
 ```
 
-Open:
+Open `index.html` in a browser.
 
-```text
-http://localhost:3000
-```
+## Running Tests
 
----
+No automated tests are configured for this project.
 
-## Author
+## Integration Notes
 
-### Atmika Nayak
+The project can be extended by connecting it to the YouTube Data API to display real videos, channels, and search results.
 
-GitHub: https://github.com/AtmikaNayak
+## Additional Resources
+
+- YouTube Design Reference: https://www.youtube.com/
